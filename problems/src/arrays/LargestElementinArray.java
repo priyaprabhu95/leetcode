@@ -22,8 +22,8 @@ public class LargestElementinArray {
         }
         // Traverse through the entire array to find the position of max value
         else for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i + 1] > arr[i]) {
-                position = i + 1;
+            if (arr[i] > arr[position]) {
+                position = i;
             }
         }
         return position;
