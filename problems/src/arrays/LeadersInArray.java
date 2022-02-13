@@ -28,7 +28,8 @@ import java.util.*;
 public class LeadersInArray {
     public static void main(String[] args) {
         int[] arr = new int[] {7, 10, 4, 3, 6, 5, 2};
-        int[] arr1 = new int[] {30, 20, 10};
+//        int[] arr1 = new int[] {30, 20, 10};
+        int[] arr1 = new int[] {10, 10};
         System.out.print(leadersInArray(arr1));
     }
     private static Set<Integer> leadersInArray(int [] arr) {

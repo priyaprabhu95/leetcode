@@ -11,9 +11,14 @@ package arrays;
 
 /**
  * APPROACH 2:
- * Temporary array pf size k and perform the operations
+ * Temporary array of size k and perform the operations
  * Time: O(n)
  * Space: O(k)
+ *
+ * 1    2   3   4   5   6
+ * k = 4
+ * 4    3   2   1   6   5
+ * 5    6   1   2   3   4
  **/
 
 /**

@@ -20,9 +20,7 @@ public class RemoveDuplicatesFromSortedArray {
         int n = arr.length;
         for (i = 0, j = 1; j < n; j++) {
             // if same elements, ignore
-            if (arr[i] == arr[j]) {
-                continue;
-            } else {
+            if (arr[i] != arr[j]) {
                 // if different elements, add it to the position next of the ith position
                 arr[i + 1] = arr[j];
                 i++;
